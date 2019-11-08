@@ -1,4 +1,5 @@
-const basePath = `wss://${window.location.host}/`;
-const endpoint = (path: string) => `${basePath}${path.startsWith("/") ? "" : "/"}${path}`;
+const basePath = `${window.location.host}/API`;
+const APIEndpoint = (path: string) => `http://${basePath}${path.startsWith("/") ? "" : "/"}${path}`;
+const WS_URI = `ws://${basePath}/websocket`;
 
-export {endpoint};
+export {APIEndpoint, WS_URI};
