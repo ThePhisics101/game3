@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="Update">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+    <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/API.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Create.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Join.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Lobby.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Play.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$USER_HOME$/Programming/19p/ezr-frontend/src/Components/Inputs/DropdownInput.scss" beforeDir="false" afterPath="$USER_HOME$/Programming/19p/ezr-frontend/src/Components/Inputs/DropdownInput.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/Programming/19p/ezr-frontend/src/Locales/en.json" beforeDir="false" afterPath="$USER_HOME$/Programming/19p/ezr-frontend/src/Locales/en.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/Programming/19p/ezr-frontend/src/Locales/lv.json" beforeDir="false" afterPath="$USER_HOME$/Programming/19p/ezr-frontend/src/Locales/lv.json" afterDir="false" />
+      <change beforePath="$USER_HOME$/Programming/19p/ezr-frontend/src/Views/Vouchers/New.tsx" beforeDir="false" afterPath="$USER_HOME$/Programming/19p/ezr-frontend/src/Views/Vouchers/New.tsx" afterDir="false" />
+      <change beforePath="$USER_HOME$/Programming/19p/ezr-frontend/src/Views/Vouchers/Route.scss" beforeDir="false" afterPath="$USER_HOME$/Programming/19p/ezr-frontend/src/Views/Vouchers/Route.scss" afterDir="false" />
+      <change beforePath="$USER_HOME$/Programming/19p/ezr-frontend/src/Views/Vouchers/Vouchers.scss" beforeDir="false" afterPath="$USER_HOME$/Programming/19p/ezr-frontend/src/Views/Vouchers/Vouchers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/game3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
         <option value="TypeScript File" />
+        <option value="React Class" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +57,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
@@ -90,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573135304372</updated>
-      <workItem from="1573135305725" duration="881000" />
+      <workItem from="1573135305725" duration="6781000" />
     </task>
     <task id="LOCAL-00001" summary="Add node-sass and react router">
       <created>1573135432821</created>
@@ -99,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573135432821</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update file structure">
+      <created>1573136208092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573136208092</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add node-sass and react router" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add node-sass and react router" />
+    <MESSAGE value="Update file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update file structure" />
   </component>
 </project>
