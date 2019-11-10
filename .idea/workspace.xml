@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/game3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/API.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/websocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/websocket.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +18,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="React Class" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -64,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -120,7 +117,7 @@
       <updated>1573135304372</updated>
       <workItem from="1573135305725" duration="6781000" />
       <workItem from="1573219857250" duration="9144000" />
-      <workItem from="1573240961828" duration="21508000" />
+      <workItem from="1573240961828" duration="27421000" />
     </task>
     <task id="LOCAL-00001" summary="Add node-sass and react router">
       <created>1573135432821</created>
@@ -143,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573229629293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Develop backend (part 1)">
+      <created>1573383878916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573383878916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +179,7 @@
     <MESSAGE value="Add node-sass and react router" />
     <MESSAGE value="Update file structure" />
     <MESSAGE value="Start work on backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start work on backend" />
+    <MESSAGE value="Develop backend (part 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Develop backend (part 1)" />
   </component>
 </project>
