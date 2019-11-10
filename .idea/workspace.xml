@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/API.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/game3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/game3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/API.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/websocket.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/API.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/websocket.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/websocket.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +24,8 @@
         <option value="TypeScript JSX File" />
         <option value="React Class" />
         <option value="SCSS File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -45,7 +45,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,14 +68,13 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="index.js (1)" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/test">
-      <method v="2" />
-    </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/server">
       <envs>
         <env name="PORT" value="8088" />
       </envs>
-      <method v="2" />
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/server/tsconfig.json" />
+      </method>
     </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -102,7 +101,6 @@
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="npm.npm start" />
       <item itemvalue="npm.build" />
-      <item itemvalue="Node.js.index.js (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -121,7 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573135304372</updated>
       <workItem from="1573135305725" duration="6781000" />
-      <workItem from="1573219857250" duration="8903000" />
+      <workItem from="1573219857250" duration="9144000" />
+      <workItem from="1573240961828" duration="21508000" />
     </task>
     <task id="LOCAL-00001" summary="Add node-sass and react router">
       <created>1573135432821</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573136208092</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Start work on backend">
+      <created>1573229629293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573229629293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +154,7 @@
         <option value="$PROJECT_DIR$/server/ReactServer.js" />
         <option value="$PROJECT_DIR$/server/API.js" />
         <option value="$PROJECT_DIR$/server/websocket.js" />
+        <option value="$PROJECT_DIR$/server/types.js" />
       </list>
     </option>
   </component>
@@ -165,11 +172,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$/../19p/ezr-frontend" />
-    </ignored-roots>
     <MESSAGE value="Add node-sass and react router" />
     <MESSAGE value="Update file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update file structure" />
+    <MESSAGE value="Start work on backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start work on backend" />
   </component>
 </project>

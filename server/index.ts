@@ -3,6 +3,7 @@ import express_ws from "express-ws";
 
 import websocket from "./websocket";
 import API from "./API";
+import {Game} from "./types";
 
 const appBase = express();
 const expressWs = express_ws(appBase);
@@ -13,9 +14,7 @@ const APIRouter = Router();
 const port = process.env.PORT || 8880;
 const baseDir = "/home/thephisics101/Programming/game3";
 
-let games: {
-  connections: {}[],
-}[] = [];
+let games: Game[] = [];
 
 APIRouter.ws("/websocket", websocket);
 APIRouter.use("/", API);
@@ -29,4 +28,4 @@ app.listen(port);
 
 console.log(`App is listening on port ${port}`);
 
-export {games, expressWs};
+export {games};
