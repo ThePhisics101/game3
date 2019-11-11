@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Modal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
