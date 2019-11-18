@@ -3,14 +3,19 @@ body {
   color: rgba(white, .9);
   margin: 0;
   font-family: Roboto, sans-serif;
+  overflow-x: hidden;
 }
 
 $green: #2E7D32; // green 800
+$teal: #00695C; // teal 800
 $blue: #2196F3; // blue 500
 
-button {
-  margin: .5em;
-  padding: 1em;
+button, a.btn {
+  text-decoration: none;
+  font: 400 14px Roboto, sans-serif;
+  max-width: 90vw;
+  padding: .5em;
+  box-sizing: border-box;
   background-color: transparent;
   border-radius: .5em;
   border: 2px solid $green;
@@ -18,6 +23,7 @@ button {
   $trans: background-color 0.2s ease, color .2s ease;
   transition: transform 0.3s ease-in, $trans;
   cursor: pointer;
+  font-size: 1em;
   &:hover, &:active {
     transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.4, 1.6), $trans;
     transform: scale(1.2);
@@ -27,9 +33,53 @@ button {
   }
   &:focus {
     outline: none;
+    box-shadow: rgba($green, .4) 0 0 10px 5px;
+  }
+}
+
+input {
+  border: 2px solid $teal;
+  background-color: rgba(black, .3);
+  border-radius: .5em;
+  padding: .4em;
+  font-size: .6em;
+  color: rgba(white, .8);
+  &:focus {
+    outline: none;
+    box-shadow: rgba($teal, .4) 0 0 10px 5px;
   }
 }
 
 a {
   color: rgba($blue, .9);
+}
+
+.router-switch {
+  &-enter, &-exit { &-active {
+    transition-duration: .1s;
+    transition-property: opacity, transform;
+    transition-timing-function: ease-in;
+  }}
+  &-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+    &-active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  &-exit {
+    opacity: 1;
+    transform: translateY(0);
+    &-active {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  &-container {
+    position: relative;
+    > * {
+      position: absolute;
+    }
+  }
 }

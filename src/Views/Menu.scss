@@ -8,6 +8,16 @@
   .footer {
     margin: 1rem;
   }
+
+  .modal > form {
+    display: flex;
+    flex-direction: column;
+    input {
+      max-width: 70vw;
+      font-size: 1.2em;
+      margin-bottom: .5em;
+    }
+  }
 }
 
 .title {
@@ -21,9 +31,12 @@
   flex: 2;
   > div {
     display: inline-block;
-    > button {
+    > button, a {
+      display: inline-block;
       width: 100%;
-      font-size: 1.5rem;
+      padding: 1em;
+      font-size: 1.5em;
+      margin: .5em;
     }
   }
 }

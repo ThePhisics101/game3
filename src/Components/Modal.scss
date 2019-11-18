@@ -1,4 +1,4 @@
-.modal {
+.__modal {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,26 +10,46 @@
   flex-direction: column;
   justify-content: space-around;
   animation: Modal-fade .4s;
-  &-body {
+  opacity: 1;
+  .modal {
     z-index: 1010;
     background-color: #212121;
     margin: 4rem auto;
     padding: 2rem;
     border-radius: .5rem;
+    animation: ModalBody-lift .4s;
+  }
+  &.fading {
+    transition: opacity .2s;
+    opacity: 0;
+    .modal {
+      animation: ModalBody-lift-out .2s;
+    }
   }
 }
 
+
 @keyframes Modal-fade {
+  from { background-color: transparent; }
+  to   { background-color: rgba(black, .6); }
+}
+@keyframes ModalBody-lift {
   from {
-    background-color: transparent;
-    .modal-body {
-      transform: translateY(20px);
-    }
+    transform: translateY(20px);
+    opacity: 0;
   }
   to {
-    background-color: rgba(black, .6);
-    .modal-body {
-      transform: translateY(0);
-    }
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes ModalBody-lift-out {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-10px);
+    opacity: 0;
   }
 }
