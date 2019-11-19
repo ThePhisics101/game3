@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Modal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Modal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Create.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Lobby.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
