@@ -1,19 +1,18 @@
 interface Player {
   name: string
   position: {
-    x: number
-    y: number
-    a: number
-    xa: number,
-    ya: number,
-    aa: number
+    x: number,  y: number,  a: number
+    xa: number, ya: number, aa: number
   }
   health: number
   lastShot: number
   lastUpdate: number
   score: number
   attributes: {
-    speed: number
+    speed: {
+      linear: number
+      radial: number
+    }
     size: number
     damage: number
   }
@@ -23,9 +22,10 @@ interface Player {
 export interface Game {
   players: Player[]
   refreshRate: number // ms
-  private: boolean
-  password?: string
   playerLimit: number
-  name: string
+  attributes: {
+    friction: number
+    scale: number
+  }
   selfID: number
 }

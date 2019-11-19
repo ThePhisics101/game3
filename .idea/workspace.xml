@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="906553b8-7107-43e7-960d-b36521a84c90" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/API.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/API.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Create.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Join.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Join.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +120,7 @@
       <workItem from="1573219857250" duration="9144000" />
       <workItem from="1573240961828" duration="27421000" />
       <workItem from="1573988234998" duration="11833000" />
+      <workItem from="1574169811991" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="Add node-sass and react router">
       <created>1573135432821</created>
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573383878916</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Switch Menu to hooks">
+      <created>1574155768650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155768650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +190,7 @@
     <MESSAGE value="Update file structure" />
     <MESSAGE value="Start work on backend" />
     <MESSAGE value="Develop backend (part 1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Develop backend (part 1)" />
+    <MESSAGE value="Switch Menu to hooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch Menu to hooks" />
   </component>
 </project>
